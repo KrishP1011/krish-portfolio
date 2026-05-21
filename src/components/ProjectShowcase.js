@@ -3,6 +3,7 @@
 import Image from "next/image";
 import FadeIn from "./FadeIn";
 import { badgeIdentifiers } from "./BadgeIdentifiers";
+import { assetPath } from "@/lib/assetPath";
 
 export default function ProjectShowcase({ projects }) {
     return (
@@ -17,7 +18,7 @@ export default function ProjectShowcase({ projects }) {
                         <div className={`flex flex-col ${idx === 0 ? "md:flex-row" : ""}`}>
                             <div className={`relative overflow-hidden bg-[#0c0a12] ${idx === 0 ? "md:w-1/2 h-64 md:h-auto md:min-h-[280px]" : "h-52"}`}>
                                 <Image
-                                    src={`/img/${project.img}`}
+                                    src={assetPath(`/img/${project.img}`)}
                                     alt={project.name}
                                     fill
                                     className="object-cover transition-transform duration-500 group-hover:scale-105"

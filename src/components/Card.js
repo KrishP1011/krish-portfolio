@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import "@/app/assets/css/Card.scss";
+import { assetPath } from "@/lib/assetPath";
 import { badgeIdentifiers } from "./BadgeIdentifiers";;
 // import Tooltip from "./Tooltip";
 
@@ -11,7 +12,7 @@ const Card = ({ title, desc, date, img, link, badges, style }) => {
         <div className="col-lg-4 col-md-6">
             <div className="lit-card my-4" style={style}>
                 <Image
-                    src={`/img/${img}`}
+                    src={assetPath(`/img/${img}`)}
                     alt="Project"
                     className="lit-card-img"
                     width={1000}

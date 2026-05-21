@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { assetPath } from "@/lib/assetPath";
 
 const SKILL_IMAGES = {
     msaccess: { src: "/img/skills/msaccess.png", alt: "Microsoft Access" },
@@ -14,7 +15,7 @@ export function SkillImageIcon({ name, width = 80, height = 80 }) {
 
     return (
         <Image
-            src={image.src}
+            src={assetPath(image.src)}
             alt={image.alt}
             width={width}
             height={height}
