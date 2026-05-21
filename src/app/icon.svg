@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="KP">
+  <circle cx="16" cy="16" r="16" fill="#000000"/>
+  <text
+    x="16"
+    y="17"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    font-size="11"
+    font-weight="700"
+    fill="#f97316"
+    letter-spacing="-0.5"
+  >KP</text>
+</svg>
