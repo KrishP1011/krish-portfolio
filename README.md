@@ -2,7 +2,7 @@
 
 Personal portfolio website showcasing my projects, experience, skills, and certifications.
 
-**Live site:** [lord-samosa.github.io/krish-portfolio](https://lord-samosa.github.io/krish-portfolio/)
+**Live site:** [https://lord-samosa.github.io/krish-portfolio/](https://lord-samosa.github.io/krish-portfolio/)
 
 ## About
 
