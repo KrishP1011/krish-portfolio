@@ -1,12 +1,11 @@
 "use client";
 
-import Image from "next/image";
 import { assetPath } from "@/lib/assetPath";
 
 const SKILL_IMAGES = {
-    msaccess: { src: "/img/skills/msaccess.png", alt: "Microsoft Access" },
+    msaccess: { src: "/img/skills/msaccess.jpg", alt: "Microsoft Access" },
     gamemaker: { src: "/img/skills/gamemaker.png", alt: "Game Maker Studio 2" },
-    mysql: { src: "/img/skills/mysql.png", alt: "MySQL" },
+    mysql: { src: "/img/skills/mysql.jpg", alt: "MySQL" },
 };
 
 export function SkillImageIcon({ name, width = 80, height = 80 }) {
@@ -14,13 +13,13 @@ export function SkillImageIcon({ name, width = 80, height = 80 }) {
     if (!image) return null;
 
     return (
-        <Image
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
             src={assetPath(image.src)}
             alt={image.alt}
             width={width}
             height={height}
             className="object-contain"
-            unoptimized
         />
     );
 }
