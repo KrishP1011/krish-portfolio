@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0c0a12;
+  --foreground: rgba(255, 248, 240, 0.88);
+  --accent: #f59e0b;
+  --accent-soft: #fbbf24;
+  --accent-secondary: #f472b6;
+  --surface: rgba(28, 20, 38, 0.72);
+  --surface-border: rgba(245, 158, 11, 0.18);
+  --glow: rgba(251, 191, 36, 0.12);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    color: var(--foreground);
+    font-family: var(--font-body), system-ui, sans-serif;
+    font-feature-settings: "kern" 1, "liga" 1;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-display), Georgia, "Times New Roman", serif;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    background-image: linear-gradient(to right, #fcd34d, #fb923c, #fb7185);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}
+
+@layer components {
+  .text-title {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-amber-300 via-orange-400 to-rose-400;
+  }
+}
+
+html,
+body {
+  background:
+    radial-gradient(ellipse 80% 50% at 85% 0%, rgba(244, 114, 182, 0.14), transparent 55%),
+    radial-gradient(ellipse 70% 45% at 10% 15%, rgba(245, 158, 11, 0.1), transparent 50%),
+    radial-gradient(circle at bottom left, #1a1028 0%, #0c0a12 45%, #06050a 100%);
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+@layer components {
+  .hero-glow {
+    box-shadow: 0 0 80px rgba(245, 158, 11, 0.15), 0 0 120px rgba(244, 114, 182, 0.08);
+  }
+
+  .stat-chip {
+    @apply font-body text-sm px-4 py-2 rounded-full border border-amber-500/20 bg-[#16101f]/60 text-stone-300;
+  }
+}
+
+::selection {
+  background: rgba(245, 158, 11, 0.35);
+  color: #fff;
+}
