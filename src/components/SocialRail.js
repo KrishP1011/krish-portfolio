@@ -3,7 +3,7 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const links = [
-    { href: "https://github.com/Lord-Samosa", icon: FaGithub, label: "GitHub" },
+    { href: "https://github.com/KrishP1011", icon: FaGithub, label: "GitHub" },
     { href: "https://www.linkedin.com/in/krish-patel1011", icon: FaLinkedin, label: "LinkedIn" },
     { href: "mailto:krish7123p@gmail.com", icon: FaEnvelope, label: "Email" },
 ];

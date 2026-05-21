@@ -4,7 +4,7 @@ const projectData = [
     description:
       "Developed a multiplayer local Battleship game with interactive gameplay and turn-based mechanics. Designed and implemented game logic, player controls, and win/loss conditions with thorough testing and debugging.",
     img: "battleship.png",
-    link: "https://github.com/Lord-Samosa",
+    link: "https://github.com/KrishP1011",
     date: "2026",
     badges: ["java", "python"],
   },
@@ -13,7 +13,7 @@ const projectData = [
     description:
       "Created original digital music compositions using technology-based tools. Earned 2nd place (2024) and 3rd place (2025) at regional competition. Collaborated with peers to develop innovative digital projects.",
     img: "great-computer-challenge.png",
-    link: "https://github.com/Lord-Samosa",
+    link: "https://github.com/KrishP1011",
     date: "2023 - 2025",
     badges: ["python"],
   },

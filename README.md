@@ -2,7 +2,7 @@
 
 Personal portfolio website showcasing my projects, experience, skills, and certifications.
 
-**Live site:** [https://lord-samosa.github.io/krish-portfolio/](https://lord-samosa.github.io/krish-portfolio/)
+**Live site:** [https://krishp1011.github.io/krish-portfolio/](https://krishp1011.github.io/krish-portfolio/)
 
 ## About
 
@@ -35,7 +35,7 @@ I'm a Computer Science student at Virginia Commonwealth University (AI minor), f
 ### Local development
 
 ```bash
-git clone https://github.com/Lord-Samosa/krish-portfolio.git
+git clone https://github.com/KrishP1011/krish-portfolio.git
 cd krish-portfolio
 npm install
 npm run dev
@@ -90,7 +90,7 @@ public/
 
 - **Email:** krish7123p@gmail.com
 - **LinkedIn:** [linkedin.com/in/krish-patel1011](https://www.linkedin.com/in/krish-patel1011)
-- **GitHub:** [github.com/Lord-Samosa](https://github.com/Lord-Samosa)
+- **GitHub:** [github.com/KrishP1011](https://github.com/KrishP1011)
 
 ## License
 

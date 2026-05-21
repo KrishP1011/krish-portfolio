@@ -20,7 +20,7 @@ import { assetPath } from "@/lib/assetPath";
 const CONTACT = {
     email: "krish7123p@gmail.com",
     linkedin: "https://www.linkedin.com/in/krish-patel1011",
-    github: "https://github.com/Lord-Samosa",
+    github: "https://github.com/KrishP1011",
 };
 
 const STATS = [

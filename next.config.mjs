@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 
-// GitHub Pages project site: https://lord-samosa.github.io/krish-portfolio/
+// GitHub Pages project site: https://krishp1011.github.io/krish-portfolio/
 const repoName = "krish-portfolio";
 const isProd = process.env.NODE_ENV === "production";
 const basePath = isProd ? `/${repoName}` : "";
